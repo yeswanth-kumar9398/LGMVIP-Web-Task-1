@@ -14,15 +14,12 @@ body{
   text-align: center;
   font-weight: bold;
 }
-
 .card-body{
   padding: 20px;
 }
-
 .task{
   margin-bottom: 10px;
 }
-
 .task-actions{
   display: flex;
   justify-content: flex-end;
