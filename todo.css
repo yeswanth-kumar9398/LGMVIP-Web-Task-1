@@ -1,26 +1,26 @@
-body{
-  background-color: #f8f9fa;
+body {
+  background-color: #d5e85b;
 }
-.container{
+.container {
   margin-top: 50px;
 }
-.card{
+.card {
   border-radius: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.card-header{
+.card-header {
   background-color: #007bff;
   color: #fff;
   text-align: center;
   font-weight: bold;
 }
-.card-body{
+.card-body {
   padding: 20px;
 }
-.task{
+.task {
   margin-bottom: 10px;
 }
-.task-actions{
+.task-actions {
   display: flex;
   justify-content: flex-end;
 }
