@@ -3,7 +3,7 @@ function addTask(){
     var taskInput = document.getElementById('taskInput');
     var taskList = document.getElementById('taskList');
     var taskDescription = taskInput.value;
-    if (taskDescription !== '') {
+    if (taskDescription !== ''){
     tasks.push(taskDescription);
     taskInput.value = '';
     renderTaskList();
@@ -35,8 +35,8 @@ function renderTaskList(){
     }
 }
 var taskInput = document.getElementById('taskInput');
-taskInput.addEventListener('keydown', function(event) {
-    if (event.keyCode === 13) {
+taskInput.addEventListener('keydown', function(event){
+    if (event.keyCode === 13){
     event.preventDefault();
     addTask();
     }
